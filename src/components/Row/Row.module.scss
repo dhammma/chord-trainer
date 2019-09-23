@@ -1,0 +1,39 @@
+$row_height: 50px;
+$line_color: black;
+
+.row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.linesContainer {
+  height: $row_height;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.line {
+  border-bottom: solid 1px $line_color;
+}
+
+.gClef {
+  position: absolute;
+
+  img {
+    margin-top: -12px;
+    height: 80px;
+  }
+}
+
+.fClef {
+  position: absolute;
+
+  img {
+    height: 50px;
+  }
+}
+
+.gClef, .fClef {
+  margin-left: 10px;
+}
